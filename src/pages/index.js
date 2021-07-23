@@ -1,10 +1,15 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
+import BlogLayout from '../layouts/BlogLayout';
 
 const Home = () => {
   return (
-    <div>
+    <BlogLayout>
       <h1>Home</h1>
-    </div>
+      <p>Parrafo</p>
+      <Button primary>Primary</Button>
+      <Button secondary>Secondary</Button>
+    </BlogLayout>
   );
 };
 

@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     name: 'world',
     url: 'https://www.leandroarturi.com.ar/#home',
@@ -16,3 +16,5 @@ export default [
     url: 'https://twitter.com/leandroarturi',
   },
 ];
+
+export default data;

@@ -9,7 +9,12 @@ const SocialMedia = () => {
   return (
     <div className="social-media">
       {map(socialData, (social, index) => (
-        <a href={social.url} target="_blank" rel="noopener noreferrer">
+        <a
+          href={social.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={index}
+        >
           <Icon circular link name={social.name} className={social.name} />
         </a>
       ))}
